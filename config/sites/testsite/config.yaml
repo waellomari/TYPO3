@@ -1,0 +1,22 @@
+base: 'http://typo3-site.ddev.site'
+errorHandling:
+  -
+    errorCode: 404
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=3'
+languages:
+  -
+    title: English
+    enabled: true
+    languageId: 0
+    base: /
+    typo3Language: default
+    locale: en_US.UTF-8
+    iso-639-1: en
+    navigationTitle: English
+    hreflang: en-us
+    direction: ltr
+    flag: us
+    websiteTitle: ''
+rootPageId: 1
+websiteTitle: ''
